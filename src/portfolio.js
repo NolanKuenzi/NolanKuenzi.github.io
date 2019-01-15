@@ -12,7 +12,7 @@ const Portfolio = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="../dist/images/Favorite_Quotes.png" className="thumbnailImg" alt="" />
+          <img src="./dist/images/Favorite_Quotes.png" className="thumbnailImg" alt="" />
           <h5 className="thumbnailText">Random Quote Generator</h5>
         </a>
       </div>
@@ -22,7 +22,7 @@ const Portfolio = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="../dist/images/Wikipedia_Viewer.png" className="thumbnailImg" alt="" />
+          <img src="./dist/images/Wikipedia_Viewer.png" className="thumbnailImg" alt="" />
           <h5 className="thumbnailText">Wikipedia Viewer App</h5>
         </a>
       </div>
@@ -34,7 +34,7 @@ const Portfolio = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="../dist/images/JavaScript_Calculator.png" className="thumbnailImg" alt="" />
+          <img src="./dist/images/JavaScript_Calculator.png" className="thumbnailImg" alt="" />
           <h5 className="thumbnailText">JavaScript Calculator</h5>
         </a>
       </div>
@@ -44,7 +44,7 @@ const Portfolio = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="../dist/images/Pomodoro_Timer.png" className="thumbnailImg" alt="" />
+          <img src="./dist/images/Pomodoro_Timer.png" className="thumbnailImg" alt="" />
           <h5 className="thumbnailText">Pomodoro Timer</h5>
         </a>
       </div>
@@ -56,7 +56,7 @@ const Portfolio = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="../dist/images/Tic_Tac_Toe.png" className="thumbnailImg" alt="" />
+          <img src="./dist/images/Tic_Tac_Toe.png" className="thumbnailImg" alt="" />
           <h5 className="thumbnailText">Tic-Tac-Toe Game</h5>
         </a>
       </div>
@@ -66,8 +66,97 @@ const Portfolio = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="../dist/images/Simon_Game.png" className="thumbnailImg" alt="" />
+          <img src="./dist/images/Simon_Game.png" className="thumbnailImg" alt="" />
           <h5 className="thumbnailText">Simon Game</h5>
+        </a>
+      </div>
+    </div>
+    <div className="portfolioSubText"><h4>React Projects:</h4></div>
+    <div className="row">
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/todoApp/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/Todo_App.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Todo-List App</h5>
+        </a>
+      </div>
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/reactCalculator/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/React_Calculator.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">React Calculator</h5>
+        </a>
+      </div>
+    </div>
+    <div className="row">
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/markdownPreviewer/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="../dist/images/Markdown_Previewer.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Markdown Previewer</h5>
+        </a>
+      </div>
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/drumMachine/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/Drum_Machine.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Drum Machine</h5>
+        </a>
+      </div>
+    </div>
+    <div className="row">
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/recipeBox/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/Recipe_Box.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Recipe Box App</h5>
+        </a>
+      </div>
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/localWeather/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/Local_Weather.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Local Weather App</h5>
+        </a>
+      </div>
+    </div>
+    <div className="row">
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/pokemonHabitats/#/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/Pokemon_Habitats.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Pokémon Habitats</h5>
+        </a>
+      </div>
+      <div className="imgDiv">
+        <a
+          href="Portfolio_Images/Emoji_Search.png/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/Emoji_Search.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Emoji Search</h5>
         </a>
       </div>
     </div>

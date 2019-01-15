@@ -4,7 +4,7 @@ import Footer from './footer';
 const About = () => (
   <div id="aboutSection">
     <div>
-      <img id="aboutImg" src="../dist/images/Pixel_Art.jpg" alt="" />
+      <img id="aboutImg" src="./dist/images/Pixel_Art.jpg" alt="" />
     </div>
     <div id="aboutText">
       <h3>About Me:</h3>
