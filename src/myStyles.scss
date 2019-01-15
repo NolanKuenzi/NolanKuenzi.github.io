@@ -75,37 +75,18 @@ a {
 }
 
 #contactSection {
-   display: flex;
-   flex-direction: column;
-   margin-top: 5em;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-#contactText {
-    display: flex;
-    justify-content: center;
-    padding-right: 0.5em;
+#linkedIn {
+  padding-right: 1em;  
 }
 
-#liImg {
-    display: flex;
-    justify-content: center;
-}
-
-#gitHubSection {
-    display: flex;
-    flex-direction: column;
-}
-
-#ghText {
-    display: flex;
-    justify-content: center;
-    padding-right: 0.5em;
-}
-
-#ghImg {
-    display: flex;
-    justify-content: center;
-    padding-right: 0.5em;
+#gHub {
+ padding-left: 1em;
 }
 
 #footer {

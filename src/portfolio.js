@@ -151,12 +151,57 @@ const Portfolio = () => (
       </div>
       <div className="imgDiv">
         <a
-          href="Portfolio_Images/Emoji_Search.png/"
+          href="https://nolankuenzi.github.io/emojiSearch/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src="./dist/images/Emoji_Search.png" className="thumbnailImg" alt="" />
           <h5 className="thumbnailText">Emoji Search</h5>
+        </a>
+      </div>
+    </div>
+    <div class="portfolioSubText"><h4>Data Visualization Projects:</h4></div>
+    <div className="row">
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/d3BarChart/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/Bar_Chart.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Bar Chart</h5>
+        </a>
+      </div>
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/d3Scatterplot/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/Scatterplot_Graph.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Scatterplot Graph</h5>
+        </a>
+      </div>
+    </div>
+    <div className="row">
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/d3HeatMap/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/Heat_Map.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Heat Map</h5>
+        </a>
+      </div>
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/d3ChoroplethMap/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/Choropleth_Map.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Choropleth Map</h5>
         </a>
       </div>
     </div>
