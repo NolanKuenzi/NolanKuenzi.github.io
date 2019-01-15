@@ -2,6 +2,9 @@ import React from 'react';
 
 const Portfolio = () => (
   <div id="portfolioSection">
+    <div id="portfolioTitle">
+      <h3>Portfolio:</h3>
+    </div>
     <div className="portfolioSubText">
       <h4>Basic Projects:</h4>
     </div>
@@ -71,14 +74,12 @@ const Portfolio = () => (
         </a>
       </div>
     </div>
-    <div className="portfolioSubText"><h4>React Projects:</h4></div>
+    <div className="portfolioSubText">
+      <h4>React Projects:</h4>
+    </div>
     <div className="row">
       <div className="imgDiv">
-        <a
-          href="https://nolankuenzi.github.io/todoApp/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://nolankuenzi.github.io/todoApp/" target="_blank" rel="noopener noreferrer">
           <img src="./dist/images/Todo_App.png" className="thumbnailImg" alt="" />
           <h5 className="thumbnailText">Todo-List App</h5>
         </a>
@@ -160,7 +161,9 @@ const Portfolio = () => (
         </a>
       </div>
     </div>
-    <div class="portfolioSubText"><h4>Data Visualization Projects:</h4></div>
+    <div className="portfolioSubText">
+      <h4>Data Visualization Projects:</h4>
+    </div>
     <div className="row">
       <div className="imgDiv">
         <a

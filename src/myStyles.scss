@@ -1,14 +1,15 @@
-
-/*     background-color: rgba(162, 214, 113, 1) !important; */
-
 body {
+  background-color: gray;
   background-color: rgba(162, 214, 113, 1);
+  background-color: #339966
 }
 
 #routerUl {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  height: 3em;
+  margin-bottom: 1em;
 }
 
 #routerUl:hover {
@@ -16,7 +17,7 @@ body {
 }
 
 li {
-  padding: 0.5em;
+  padding: 1em;
   background-color: black;
 }
 
@@ -38,10 +39,19 @@ a {
 #aboutImg {
   height: 42em;
   opacity: 0.8;
+  position: relative;
+  margin-top: 1em;
+}
+
+#portfolioTitle {
+  text-align: center;
+  margin-bottom: 5em;
 }
 
 #portfolioSection {
-  margin-top: 8em;
+  margin-top: 1em;
+  position: relative;
+  top: 4em;
 }
 
 .portfolioSubText {
@@ -58,7 +68,7 @@ a {
 }
 
 .imgDiv {
-    text-align: center;
+  text-align: center;
 }
 
 .thumbnailImg {

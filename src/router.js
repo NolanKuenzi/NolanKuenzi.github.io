@@ -26,8 +26,3 @@ const ReactRouter = () => (
   </Router>
 );
 export default ReactRouter;
-
-/*
-    <Link to="/portfolio">Portfolio</Link>
-    <Route path="/portfolio" exact component={} />
-*/

@@ -11,8 +11,8 @@ const About = () => (
       <h4>
         <b>
           Hi, I am Nolan Kuenzi. I am a front-end developer from the United States. <br /> I am
-          passonate about software, the web, and emerging technologies. This site contains portfolio
-          of projects that I have worked on.
+          passionate about software, the web, and emerging technologies. This site contains
+          portfolio of projects that I have worked on.
         </b>
       </h4>
     </div>
