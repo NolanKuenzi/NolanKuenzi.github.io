@@ -18,7 +18,6 @@ const ReactRouter = () => (
           <Link to="/contact/">Contact</Link>
         </li>
       </ul>
-
       <Route path="/" exact component={About} />
       <Route path="/portfolio/" exact component={Portfolio} />
       <Route path="/contact/" exact component={Contact} />
