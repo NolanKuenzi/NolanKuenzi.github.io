@@ -16,7 +16,7 @@ const Contact = () => (
       </a>
 
       <a href="mailto:mr.nolank@gmail.com" id="gMail" target="_blank" rel="noopener noreferrer">
-        <img id="gMailIcon" src="./dist/images/Gmail_icon.png" alt="" />
+        <img id="gMailIcon" src="./dist/images/Gmail_Icon.png" alt="" />
       </a>
     </div>
   </div>
