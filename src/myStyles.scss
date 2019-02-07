@@ -5,6 +5,10 @@ body {
 
 #routerUl {
   list-style-type: none;
+  z-index: 2;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 #routerUl:hover {
@@ -14,7 +18,7 @@ body {
 ul li {
   padding: 1em;
   background-color: black;
-  display: inline-block;
+  display: inline;
 }
 
 a {
@@ -22,6 +26,7 @@ a {
 }
 
 #aboutSection {
+  margin-top: 5em;
   text-align: center;
 }
 
@@ -76,6 +81,7 @@ a {
 
 .imgDiv {
   text-align: center;
+  z-index: 1;
 }
 
 .thumbnailImg {

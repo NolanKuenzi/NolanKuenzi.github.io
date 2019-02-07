@@ -12,11 +12,11 @@ const Contact = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img id="LinkedIn_Icon" src="./dist/images/Linkedin_Icon.png" alt="" />
+        <img id="LinkedIn_Icon" src="./dist/images/LinkedIn_icon.svg" alt="" />
       </a>
 
       <a href="mailto:mr.nolank@gmail.com" id="gMail" target="_blank" rel="noopener noreferrer">
-        <img id="gMailIcon" src="./dist/images/Gmail_Icon.png" alt="" />
+        <img id="gMailIcon" src="./dist/images/Gmail_icon.png" alt="" />
       </a>
     </div>
   </div>
