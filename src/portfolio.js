@@ -5,6 +5,16 @@ const Portfolio = () => (
     <div id="portfolioTitle">
       <h3>Portfolio:</h3>
     </div>
+    <div id="portfolioDescription">
+      <h4 id="portfolioDescriptionText">
+        Click on any of the thumbnail images to view the full project. Click on the GitHub icon
+        below to see the code.
+      </h4>
+      <a href="https://github.com/NolanKuenzi" id="gHub" target="_blank" rel="noopener noreferrer">
+        <img src="./dist/images/GH_icon.png" alt="" />
+        <h5 className="thumbnailText">GitHub</h5>
+      </a>
+    </div>
     <div className="portfolioSubText">
       <h4>Basic Projects:</h4>
     </div>
