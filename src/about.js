@@ -16,7 +16,6 @@ const About = () => (
         </b>
       </h4>
     </div>
-    <Footer />
   </div>
 );
 

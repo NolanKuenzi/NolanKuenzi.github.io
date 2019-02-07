@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './myStyles.scss';
-import ReactRouter from './router';
+import Main from './main';
 
 const App = () => (
   <div>
-    <ReactRouter />
+    <Main />
   </div>
 );
 ReactDOM.render(<App />, document.getElementById('app'));

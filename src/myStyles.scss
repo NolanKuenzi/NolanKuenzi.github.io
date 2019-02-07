@@ -1,24 +1,20 @@
 body {
   background-color: gray;
-  background-color: rgba(162, 214, 113, 1);
-  background-color: #339966
+  background-color: #339966;
 }
 
 #routerUl {
-  display: flex;
-  flex-direction: row;
   list-style-type: none;
-  height: 3em;
-  margin-bottom: 1em;
 }
 
 #routerUl:hover {
   cursor: pointer;
 }
 
-li {
+ul li {
   padding: 1em;
   background-color: black;
+  display: inline-block;
 }
 
 a {
@@ -96,7 +92,7 @@ a {
 }
 
 #contactSection {
-  margin-top: 5em;
+  margin-top: 8em;
   text-align: center;
 }
 
@@ -104,10 +100,6 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-#linkedIn {
-
 }
 
 #gMail {
@@ -129,5 +121,4 @@ a {
 
 #footer {
   text-align: center;
-  margin-top: -6em;
 }
