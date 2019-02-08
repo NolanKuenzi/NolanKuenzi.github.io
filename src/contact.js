@@ -1,9 +1,8 @@
+/* eslint-disable */
 import React from 'react';
 
 class MessageMe extends React.Component {
-  submit = () => {
-    console.log('egg');
-  };
+  //submit = () => {};
 
   render() {
     return (
@@ -13,11 +12,11 @@ class MessageMe extends React.Component {
         </div>
         <form>
           <div>
-            <input id="contactName" className="contactSecAttr" placeHolder="Your Name" /> <br />
-            <input id="contactEmail" className="contactSecAttr" placeHolder="Your Email" />
+            <input id="contactName" className="contactSecAttr" placeHolder="Your Name" disabled /> <br />
+            <input id="contactEmail" className="contactSecAttr" placeHolder="Your Email" disabled />
           </div>
           <div id="textAreaInputDiv">
-            <textarea id="textAreaInput" className="contactSecAttr" placeHolder="Message" />
+            <textarea id="textAreaInput" className="contactSecAttr" placeHolder="Message" disabled />
           </div>
           <div>
             <button id="submitButton" className="contactSecAttr" type="button">
@@ -50,8 +49,11 @@ const Contact = () => (
         </a>
       </div>
     </div>
-    <div id="messageContainer">
+    <div>
       <MessageMe />
+    </div>
+    <div id="commingSoon">
+      <h2 id="commingSoonText">Feature Comming Soon</h2>
     </div>
   </div>
 );

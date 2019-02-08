@@ -168,7 +168,7 @@ form {
 }
 
 #contactName {
-  margin-top: 4em;
+  margin-top: 6em;
   height: 1.8em;
   width: 17em;
 }
@@ -181,7 +181,6 @@ form {
 #textAreaInput {
   height: 10em;
   width: 27em;
-
 }
 
 #submitButton:active {
@@ -193,6 +192,23 @@ form {
 
 #submitButton:hover {
   cursor: pointer;
+}
+
+#commingSoon {
+  height: 3em;
+  background-color: black;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  text-align: center;
+  position: relative;
+  bottom: 24.5em;
+}
+
+#commingSoonText {
+  padding-top: 0.45em;
 }
 
 #footer {
