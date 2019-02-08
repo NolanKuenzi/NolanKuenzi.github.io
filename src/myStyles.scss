@@ -9,6 +9,11 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
+  background-color: black;
+  height: 2em;
+  padding-top: 3em;
+  top: -3em;
+  left: -2em;
 }
 
 #routerUl:hover {
@@ -16,7 +21,8 @@ body {
 }
 
 ul li {
-  padding: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   background-color: black;
   display: inline;
 }
@@ -47,23 +53,24 @@ a {
 #portfolioSection {
   margin-top: 1em;
   position: relative;
-  top: 4em;
+  top: 5em;
 }
 
 #portfolioDescription {
   display: flex;
   text-align: center;
   flex-direction: column;
-  margin-bottom: 8em;
+  margin-bottom: 7em;
 }
 
 #portfolioDescriptionText {
-  margin-bottom: 5em;
+  margin-top: 1em;
+  margin-bottom: 3em;
 }
 
 #portfolioTitle {
   text-align: center;
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 
 .portfolioSubText {
@@ -97,9 +104,15 @@ a {
     text-decoration: underline;
 }
 
+#MessageDiv {
+  display: flex;
+  flex-direction: column;
+}
+
 #contactSection {
   margin-top: 8em;
   text-align: center;
+  text-decoration: underline;
 }
 
 #contactIcons {
@@ -123,6 +136,63 @@ a {
   width: 100px;
   position: relative;
   margin-left: 1em;
+}
+
+#messageDiv {
+  margin-top: 3em;
+  border: 0.5em solid black;
+  width: 25em;
+  height: 26.6em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  width: 19em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#messageDivHeader {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.contactSecAttr {
+  border: 4px solid black;
+  margin-left: 0em;
+  outline: none !important;
+  background-color: white;
+  margin-bottom: 0.8em;
+}
+
+#contactName {
+  margin-top: 4em;
+  height: 1.8em;
+  width: 17em;
+}
+
+#contactEmail {
+  height: 1.8em;
+  width: 17em;
+}
+
+#textAreaInput {
+  height: 10em;
+  width: 27em;
+
+}
+
+#submitButton:active {
+  background-color: #339966;
+  color: black;
+  box-shadow: none;
+  transform: translateY(.3em);
+}
+
+#submitButton:hover {
+  cursor: pointer;
 }
 
 #footer {
