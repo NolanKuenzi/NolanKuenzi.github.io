@@ -121,21 +121,25 @@ a {
   justify-content: center;
 }
 
-#gMail {
-  position: relative;
+.iconImg {
+  height: 60px;
+  width: 60px;
 }
 
 #LinkedIn_Icon {
-  height: 80px;
-  width: 80px;
   margin-right: 1em;
+  position: relative;
+
 }
 
 #gMailIcon {
-  height: 90px;
-  width: 100px;
-  position: relative;
   margin-left: 1em;
+  margin-right: 1em;
+}
+
+#mediumIcon {
+  margin-left: 1em;
+
 }
 
 #messageDiv {

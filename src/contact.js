@@ -12,11 +12,11 @@ class MessageMe extends React.Component {
         </div>
         <form>
           <div>
-            <input id="contactName" className="contactSecAttr" placeHolder="Your Name" disabled /> <br />
-            <input id="contactEmail" className="contactSecAttr" placeHolder="Your Email" disabled />
+            <input id="contactName" className="contactSecAttr" placeholder="Your Name" disabled /> <br />
+            <input id="contactEmail" className="contactSecAttr" placeholder="Your Email" disabled />
           </div>
           <div id="textAreaInputDiv">
-            <textarea id="textAreaInput" className="contactSecAttr" placeHolder="Message" disabled />
+            <textarea id="textAreaInput" className="contactSecAttr" placeholder="Message" disabled />
           </div>
           <div>
             <button id="submitButton" className="contactSecAttr" type="button">
@@ -42,10 +42,13 @@ const Contact = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img id="LinkedIn_Icon" src="./dist/images/LinkedIn_icon.svg" alt="" />
+          <img id="LinkedIn_Icon" className="iconImg" src="./dist/images/LinkedIn_icon.svg" alt="" />
         </a>
         <a href="mailto:mr.nolank@gmail.com" id="gMail" target="_blank" rel="noopener noreferrer">
-          <img id="gMailIcon" src="./dist/images/Gmail_Icon.png" alt="" />
+          <img id="gMailIcon" className="iconImg" src="./dist/images/Gmail_Icon.png" alt="" />
+        </a>
+        <a href="https://medium.com/@mr.nolank" id="medium" target="_blank" rel="noopener noreferrer">
+          <img id="mediumIcon" className="iconImg" src="./dist/images/Medium_Logo.svg" alt="" />
         </a>
       </div>
     </div>
