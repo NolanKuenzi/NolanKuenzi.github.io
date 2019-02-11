@@ -146,13 +146,12 @@ a {
   margin-top: 3em;
   border: 0.5em solid black;
   width: 25em;
-  height: 26.6em;
+  height: 25em;
   margin-left: auto;
   margin-right: auto;
 }
 
 form {
-  width: 19em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -164,27 +163,56 @@ form {
 }
 
 .contactSecAttr {
-  border: 4px solid black;
-  margin-left: 0em;
+  margin-left: 1em;
   outline: none !important;
   background-color: white;
-  margin-bottom: 0.8em;
+
+}
+
+#nameLabel {
+  position: relative;
+  margin-left: 1em;
+  margin-top: 3em;
 }
 
 #contactName {
-  margin-top: 6em;
-  height: 1.8em;
-  width: 17em;
+  height: 2em;
+  width: 20em;
+  position: relative;
+  bottom: 1.6em;
+}
+
+#emailLabel {
+  position: relative;
+  margin-left: 1em;
+  position: relative;
+  bottom: 2em;
 }
 
 #contactEmail {
-  height: 1.8em;
-  width: 17em;
+  height: 2em;
+  width: 20em;
+  position: relative;
+  bottom: 4.5em;
 }
 
-#textAreaInput {
-  height: 10em;
-  width: 27em;
+#messageLabel {
+  position: relative;
+  bottom: 4em;
+  margin-left: 1em;
+}
+
+#contactMessage {
+  height: 6em;
+  width: 23em;
+  position: relative;
+  bottom: 7.5em;
+}
+
+#submitButton {
+  border: 4px solid black;
+  position: relative;
+  bottom: 7em;
 }
 
 #submitButton:active {
@@ -199,7 +227,7 @@ form {
 }
 
 #commingSoon {
-  height: 3em;
+  height: 25.5em;
   background-color: black;
   color: white;
   display: block;
@@ -208,11 +236,14 @@ form {
   width: 25em;
   text-align: center;
   position: relative;
-  bottom: 24.5em;
+  bottom: 27em;
+  opacity: 0.5;
 }
 
 #commingSoonText {
   padding-top: 0.45em;
+  position: relative;
+  top: 2em;
 }
 
 #footer {
