@@ -166,7 +166,10 @@ form {
   margin-left: 1em;
   outline: none !important;
   background-color: white;
+}
 
+.labels {
+  margin-bottom: -1em;
 }
 
 #nameLabel {
@@ -178,41 +181,28 @@ form {
 #contactName {
   height: 2em;
   width: 20em;
-  position: relative;
-  bottom: 1.6em;
 }
 
 #emailLabel {
-  position: relative;
   margin-left: 1em;
-  position: relative;
-  bottom: 2em;
 }
 
 #contactEmail {
   height: 2em;
   width: 20em;
-  position: relative;
-  bottom: 4.5em;
 }
 
 #messageLabel {
-  position: relative;
-  bottom: 4em;
   margin-left: 1em;
 }
 
 #contactMessage {
   height: 6em;
   width: 23em;
-  position: relative;
-  bottom: 7.5em;
 }
 
 #submitButton {
   border: 4px solid black;
-  position: relative;
-  bottom: 7em;
 }
 
 #submitButton:active {
@@ -246,6 +236,3 @@ form {
   top: 2em;
 }
 
-#footer {
-  text-align: center;
-}

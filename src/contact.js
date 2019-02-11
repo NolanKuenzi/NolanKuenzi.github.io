@@ -55,7 +55,7 @@ class MessageMe extends React.Component {
         </div>
         <form onSubmit={this.submit}>
           <div>
-            <div id="nameLabel">
+            <div id="nameLabel" className="labels">
               <h4>Name:</h4>
             </div>
             <input
@@ -72,7 +72,7 @@ class MessageMe extends React.Component {
               disabled
             />
             <br />
-            <div id="emailLabel">
+            <div id="emailLabel" className="labels">
               <h4>Email:</h4>
             </div>
             <input
@@ -89,7 +89,7 @@ class MessageMe extends React.Component {
               disabled
             />
           </div>
-          <div id="messageLabel">
+          <div id="messageLabel" className="labels">
             <h4>Message:</h4>
           </div>
           <textarea
