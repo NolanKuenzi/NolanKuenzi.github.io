@@ -171,6 +171,18 @@ const Portfolio = () => (
         </a>
       </div>
     </div>
+    <div className="row">
+      <div className="imgDiv">
+        <a
+          href="https://nolankuenzi.github.io/topTwitchStreams/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="./dist/images/Top_Twitch_Streams.png" className="thumbnailImg" alt="" />
+          <h5 className="thumbnailText">Top Twitch Streams</h5>
+        </a>
+      </div>
+    </div>
     <div className="portfolioSubText">
       <h4>Data Visualization Projects:</h4>
     </div>
