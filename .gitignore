@@ -24,4 +24,5 @@ coverage
 # misc
 .DS_Store
 /altApis
-dist/statistics.html
+/dist/statistics.html
+/server
