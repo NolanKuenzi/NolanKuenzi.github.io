@@ -10,8 +10,8 @@ const About = () => (
       <h3>About Me:</h3>
       <h4>
         <b>
-          Hi, I am Nolan Kuenzi. I am a web developer from the United States specializing primarily in the React/Redux Node/Express Ecosystem. <br /> 
-          This site contains a portfolio of projects that I have worked on.
+          Hi, I am Nolan Kuenzi. I am a web developer from the United States specializing in the React/Node/Express Ecosystem. <br /> 
+          I am passionate about software, the web, and emerging technologies. This site contains a portfolio of my projects.
         </b>
       </h4>
     </div>

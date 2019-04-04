@@ -275,18 +275,30 @@ const Portfolio = () => (
       </div>
     </div>
     <div className="portfolioSubText">
-      <h4>Full Stack Projects:</h4>
+      <h4>Express Projects:</h4>
     </div>
     <div className="row">
       <div className="imgDiv">
       <h5 className="thumbnailText">Timestamp Microservice</h5>
-          <img src="./dist/images/timeStamp.png" className="thumbnailImg" alt="" />
+          <img src="./dist/images/Time_Stamp_Microservice.png" className="thumbnailImg" alt="" />
           <div>
             <span className="thumbnailText">
               <a href="https://github.com/NolanKuenzi/TimestampMicroservice" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
             </span>
             <span className="thumbnailText">
               <a href="https://rocky-taiga-66599.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Project</a>
+            </span>
+          </div>
+      </div>
+      <div className="imgDiv">
+      <h5 className="thumbnailText">Request Header Parser Microservice</h5>
+          <img src="./dist/images/Header_Parser_Microservice.png" className="thumbnailImg" alt="" />
+          <div>
+            <span className="thumbnailText">
+              <a href="https://github.com/NolanKuenzi/requestHeaderParserMicroservice" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+            </span>
+            <span className="thumbnailText">
+              <a href="https://fast-garden-59655.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Project</a>
             </span>
           </div>
       </div>
