@@ -6,7 +6,7 @@ const Portfolio = () => (
       <h3>Portfolio:</h3>
     </div>
     <div className="portfolioSubText">
-      <h4>Basic Projects:</h4>
+      <h4>Vanilla JavaScript Projects:</h4>
     </div>
     <div className="row">
       <div className="imgDiv">
@@ -299,6 +299,20 @@ const Portfolio = () => (
             </span>
             <span className="thumbnailText">
               <a href="https://fast-garden-59655.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Project</a>
+            </span>
+          </div>
+      </div>
+    </div>
+    <div className="row">
+      <div className="imgDiv">
+      <h5 className="thumbnailText">URL Shortener Microservice</h5>
+          <img src="./dist/images/Url_Shortener_Microservice.png" className="thumbnailImg" alt="" />
+          <div>
+            <span className="thumbnailText">
+              <a href="https://github.com/NolanKuenzi/urlShortener" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+            </span>
+            <span className="thumbnailText">
+              <a href="https://desolate-headland-97915.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Project</a>
             </span>
           </div>
       </div>
