@@ -316,6 +316,18 @@ const Portfolio = () => (
             </span>
           </div>
       </div>
+      <div className="imgDiv">
+      <h5 className="thumbnailText">Exercise Tracker</h5>
+          <img src="./dist/images/Exercise_Tracker.png" className="thumbnailImg" alt="" />
+          <div>
+            <span className="thumbnailText">
+              <a href="https://github.com/NolanKuenzi/exerciseTracker" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+            </span>
+            <span className="thumbnailText">
+              <a href="https://sleepy-springs-16191.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Project</a>
+            </span>
+          </div>
+      </div>
     </div>
   </div>
 );
