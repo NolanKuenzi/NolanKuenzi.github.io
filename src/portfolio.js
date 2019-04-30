@@ -329,6 +329,20 @@ const Portfolio = () => (
           </div>
       </div>
     </div>
+    <div className="row">
+      <div className="imgDiv">
+      <h5 className="thumbnailText">File Metadata Microservice</h5>
+          <img src="./dist/images/File_Metadata_Microservice.png" className="thumbnailImg" alt="" />
+          <div>
+            <span className="thumbnailText">
+              <a href="https://github.com/NolanKuenzi/fileMetadataMicroservice" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+            </span>
+            <span className="thumbnailText">
+              <a href="https://hidden-atoll-60103.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Project</a>
+            </span>
+          </div>
+      </div>
+    </div>
   </div>
 );
 
