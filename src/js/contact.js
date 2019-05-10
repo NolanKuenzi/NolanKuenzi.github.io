@@ -16,7 +16,7 @@ const MessageMe = () => {
       <div id="messageDivHeader">
         <h3>Message Me:</h3>
       </div>
-      <form action="http://localhost:3000/send/" method="post">
+      <form action="https://powerful-lowlands-40404.herokuapp.com/" method="post">
         <div>
           <div id="nameLabel" className="labels">
             <h4>Name:</h4>
@@ -78,7 +78,12 @@ const Contact = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img id="LinkedIn_Icon" className="iconImg" src="./dist/images/LinkedIn_icon.svg" alt="" />
+          <img
+            id="LinkedIn_Icon"
+            className="iconImg"
+            src="./dist/images/LinkedIn_icon.svg"
+            alt=""
+          />
         </a>
         <a href="mailto:mr.nolank@gmail.com" id="gMail" target="_blank" rel="noopener noreferrer">
           <img id="gMailIcon" className="iconImg" src="./dist/images/Gmail_Icon.png" alt="" />
